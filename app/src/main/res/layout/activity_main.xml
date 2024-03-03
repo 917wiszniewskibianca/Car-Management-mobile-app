@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_view_cars"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonAddNewCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new entry" />
+    <Button
+        android:id="@+id/buttonShowCarTypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Staff Section" />
+
+    <Button
+        android:id="@+id/buttonShowCarOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supplier Section" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCarName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextSupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCarName"
+        android:layout_marginTop="16dp"
+        android:hint="Supplier"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSupplier"
+        android:layout_marginTop="16dp"
+        android:hint="Details"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDetails"
+        android:layout_marginTop="16dp"
+        android:hint="Status"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStatus"
+        android:layout_marginTop="16dp"
+        android:hint="Quantity"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuantity"
+        android:layout_marginTop="16dp"
+        android:hint="Type"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextType"
+        android:layout_marginTop="32dp"
+        android:text="Add Car" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
